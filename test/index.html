@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SVG Stacks!</title>
+  <style>
+    .svg {
+      background-repeat: no-repeat;
+      background-size: contain;
+      min-height: 100px;
+      min-width: 100px;
+    }
+
+    .svgbg1 {
+      background-image: url('/stack/svg/sprite.stack.svg#bike');
+    }
+
+    .svgbg2 {
+      background-image: url('/stack/svg/sprite.stack.svg#bus');
+    }
+
+    .svgbg3 {
+      background-image: url('/stack/svg/sprite.stack.svg#people');
+    }
+
+    .icon {
+      width: 200px;
+      height: 200px;
+      fill: fuchsia;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>SVG Stacks</h1>
+  <h2>As BG images</h2>
+  <div class="svg svgbg1"></div>
+  <div class="svg svgbg2"></div>
+  <div class="svg svgbg3"></div>
+  <h2>As style-able SVGs</h2>
+  <svg class="icon">
+    <use xlink:href="/stack/svg/sprite.stack.svg#camera" />
+  </svg>
+</body>
+
+</html>

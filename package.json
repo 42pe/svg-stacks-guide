@@ -1,0 +1,27 @@
+{
+  "name": "svg-stacks",
+  "version": "1.0.0",
+  "description": "(My) (Somewhat) Definitive Guide to SVG Stacks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/42pe/svg-stacks-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/42pe/svg-stacks-guide/issues"
+  },
+  "homepage": "https://github.com/42pe/svg-stacks-guide#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-svg-sprite": "^1.5.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.3"
+  }
+}
